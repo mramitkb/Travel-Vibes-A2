@@ -7,14 +7,16 @@
 }
 
 /* Shared Styles */
-.button-primary{
+.btn-primary{
   color: white;
   background-color: #FF5400;
   font-size: 1.25rem;
   font-weight: 800;
   text-align: center;
-  padding: 14px 25px;
+  padding: 12px 25px;
   border-radius: 8px;
+  border: none;
+  cursor: pointer;
 }
 
 /* Navbar starts from here */
@@ -38,7 +40,7 @@ header{
   height: 48px;
 }
 .nav-title{
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 900;
 }
 .nav-title> span{
@@ -46,12 +48,15 @@ header{
 }
 .nav-menus{
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-menus> a{
   text-decoration: none;
   margin-right: 40px;
   color: #424247;
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 .nav-menus> a:hover{
@@ -65,4 +70,92 @@ header{
 }
 .hamburger> img{
   width: 30px;
+}
+
+/* Banner Starts from here */
+.banner-container{
+  background-image: url('./resources/Images/Banner.png');
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+}
+.banner-p{
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  max-width: 600px;
+}
+.input-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+}
+.input-field{
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  outline: 0;
+}
+.arrow2{
+  position: relative;
+}
+.field2{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+/* Popular Tour Starts from her */
+main{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.popular-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.popular-info{
+  width: 50%;
+  padding-right: 30px;
+}
+.popular-title{
+  font-size: 2.50rem;
+  font-weight: 800;
+}
+.popular-p{
+  margin: 28px 0;
+}
+.unordered{
+  margin: 20px 0;
+}
+.ul-li{
+  margin-top: 10px;
+  width: 85%;
+  text-align: left;
+  margin-left: 0.75rem;
+}
+.popular-photo{
+  width: 50%;
+}
+.popular-img{
+  width: 100%;
 }
