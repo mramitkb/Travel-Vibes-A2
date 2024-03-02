@@ -19,14 +19,39 @@
     
       /* Banner Responsive */
       .banner-container{
-        background-position: center;
+        margin: 100px auto 0;
+        width: 335px;
         height: 480px;
-        width: 360px;
-        margin: 0px 15px;
+        flex-shrink: 0;
+        background-size: cover;
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .banner-title{
+        font-size: 1.50rem;
+      }
+      .banner-p{
+        font-size: 0.75rem;
+        width: 80%;
       }
       .input-container{
         flex-direction: column;
+        margin: 40px;
       }
+      .input-field{
+        margin-top: 20px;
+      }
+      .btn-primary{
+        font-size: 1rem;
+        width: 98%;
+        margin-top: 20px;
+      }
+      .field2{
+        right: 20px;
+        top: 30px;
+      }
+
 
       /* Popular Tour Starts from here */
     .popular-container{
