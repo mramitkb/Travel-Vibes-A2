@@ -44,4 +44,10 @@
         padding: 0 20px;
         margin-top: 30px;
     }
+
+
+    /* Footer Starts from here */
+    .footer-icon>img{
+        width: 32px;
+    }
 }
