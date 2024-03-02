@@ -44,12 +44,25 @@ header{
 .nav-title> span{
   color: #FF5400;
 }
+.nav-menus{
+  width: 50%;
+}
 .nav-menus> a{
   text-decoration: none;
   margin-right: 40px;
   color: #424247;
   font-size: 18px;
+  font-weight: bold;
 }
 .nav-menus> a:hover{
   color: #FF5400;
+  transition: 0.7s ease;
+}
+.hamburger{
+  visibility: hidden;
+  display: none;
+  
+}
+.hamburger> img{
+  width: 30px;
 }

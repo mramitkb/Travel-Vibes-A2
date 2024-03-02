@@ -1,1 +1,18 @@
 /* Mobile Devices */
+@media screen and (max-width:600px) {
+    .nav-container{
+        padding: 0px 20px;
+    }
+    .nav-title{
+        font-size: 24px;
+    }
+    .hamburger{
+        display:inline;
+        visibility: visible;
+        cursor: pointer;
+    }
+    .nav-menus{
+        display: none;
+      }
+    
+}
