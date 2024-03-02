@@ -31,22 +31,40 @@
       /* Popular Tour Starts from here */
     .popular-container{
         flex-direction: column;
+        padding: 20px;
     }
     .popular-info{
         width: 100%;
-        padding: 0 20px;
     }
     .ul-li{
         width: 100%;
     }
     .popular-photo{
         width: 100%;
-        padding: 0 20px;
         margin-top: 30px;
     }
 
+    /* Newsletter Starts from here */
+    .newsletter-container{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .newsletter-info{
+        width: 100%;
+        margin-right: 0;
+    }
+    .newsletter-photo{
+        width: 100%;
+        margin-top: 20px;
+    }
 
     /* Footer Starts from here */
+    .footer-p{
+        width: 80%;
+    }
+    .hori{
+        width: 80%;
+    }
     .footer-icon>img{
         width: 32px;
     }
