@@ -160,7 +160,61 @@ main{
   width: 100%;
 }
 
-
+/* Choose Us Starts from here */
+.choose{
+  margin-top: 100px;
+  text-align: center;
+}
+.choose-title{
+  font-size: 2.50rem;
+  font-weight: 800;
+}
+.choose-p{
+  color: #5A5A5D;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.choose-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+}
+.hotel{
+  width: 630px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+}
+.service{
+  width: 630px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 32px;
+}
+.price{
+  width: 630px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 32px;
+}
+.hotel-title{
+  font-size: 1.50rem;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.hotel-p{
+  color: #5A5A5D;
+  line-height: 26px;
+}
 
 
 /* Newsletter Starts from here */
