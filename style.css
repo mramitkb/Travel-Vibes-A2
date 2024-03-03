@@ -328,6 +328,47 @@ main{
   font-weight: 600;
 }
 
+/* Review Starts from here */
+.review{
+  margin-top: 100px;
+  text-align: center;
+}
+.review-title{
+  font-size: 2.50rem;
+  font-weight: 800;
+}
+.review-p{
+  color: #5A5A5D;
+  margin: 15px 0 30px;
+}
+.review-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.reviewer-info{
+  background-color: rgb(255, 222, 228);
+  padding: 20px;
+  border-radius: 8px;
+}
+.fa-user{
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(40, 145, 187);
+}
+.user-name{
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.rating{
+  color: green;
+}
+.reviewer-p{
+  margin-top: 20px;
+}
+
 /* Footer Starts from here */
 footer{
   background-color: rgba(19, 19, 24, 0.05);

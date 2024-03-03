@@ -127,7 +127,21 @@
     .seventy{
         font-size: 1rem;
         font-weight: 600;
-      }
+    }
+    
+    /* Review Starts from here */
+    .review-title{
+        font-size: 1.50rem;
+    }
+    .review-p{
+        font-size: 0.75rem;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .review-container{
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
 
     /* Footer Starts from here */
     .footer-p{
