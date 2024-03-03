@@ -154,3 +154,26 @@
         width: 32px;
     }
 }
+
+/* Large Devices */
+@media screen and (min-width: 992px) {
+    header{
+        padding: 0px 30px;
+    }
+    .nav-menus> .menus{
+        font-size: 1rem;
+    }
+    .choose-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hotel, .service, .price{
+        width: 40%;
+    }
+    .hotel-p{
+        font-size: 12px;
+        line-height: normal;
+    }
+    main{
+        padding: 0px 30px;
+    }
+}
